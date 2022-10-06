@@ -8,16 +8,16 @@
 # Input: ([3,1,0,19], 19, 0)	
 # Output: True
 
-def arr(a,b):
-    a= []
-    b= []
-    for i in a:
-        if a == b:
-            return True
-        else:
-            return False
+# def arr(a,b):
+#     a= []
+#     b= []
+#     for i in a:
+#         if a == b:
+#             return True
+#         else:
+#             return False
 
-arr()
+# arr()
 
 # def arr1(*numbers):
 #     print(arr1)
@@ -37,3 +37,6 @@ arr()
 #             return True
 #         else:
 #             return False
+
+number_list = [x ** 2 for x in range(10) if x % 2 == 0]
+print(number_list)
